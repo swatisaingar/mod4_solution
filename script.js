@@ -5,9 +5,9 @@ var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula"
 for (var i = 0; i < names.length; i++) {
   var firstLetter = names[i].charAt(0);
   if (firstLetter === 'j' || firstLetter === 'J') {
-   goodreplace(names[i]);
+   byeSpeaker.speak(names[i]);
   } else {
-    helloreplace(names[i]);
+    helloSpeaker.speak(names[i]);
   }
 }
 
